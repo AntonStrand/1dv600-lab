@@ -68,7 +68,7 @@ ___
 
 ### Task 2 Vision
 #### Planning
-Writing the vision document is a bigger task that will take longer time to both produce and plan. When it takes longer time it also have a greater risk of being interupted and there for take even longer time. With that in mind my initial time estimation is 4 hours effective time spent on the task but it will probably take 8 hours from start to finish. Start 13:00 fri 1st.
+Writing the vision document is a bigger task that will take longer time to both produce and plan. When it takes longer time it also have a greater risk of being interupted and there for take even longer time. With that in mind my initial time estimation is 4 hours effective time spent on the task but it will probably take 8 hours from start to finish. Start 13:00 fri 2nd.
 
 | Order | Subtask                                                                                                                   | Est. time |
 |:-----:|---------------------------------------------------------------------------------------------------------------------------|----------:|
@@ -76,5 +76,8 @@ Writing the vision document is a bigger task that will take longer time to both 
 |1.     |Research what to include in a vision document.                                                                             | 90 min    |
 |2.     |Go through provided information to find out the current vision.                                                            | 60 min    |
 |3.     |Write the vision.                                                                                                          | 60 min    |
-|4.     |Write reflection                                                                                                           | 15 min    |
+|4.     |Write reflection.                                                                                                          | 15 min    |
 |       |*Total estimated time*                                                                                                     | *60 min*  |
+
+#### Reflections
+The during the planning stage the plan was create the vision document with a more of a waterfall approach but I ended up working more in iterations. I started with reading about vision documents and what it needs to include. I mostly skimmed though the texts first and then went back to it during the time that I wrote the vision. I found this easier because I didn't need to take separate note or remember to much information at once. Instead I could write the vision and make changes if needed. It did effected both the planning and the time tracking since it was hard to always remember to pause and start the different time trackers while rapidly switching between the different subtasks. But the total time is still correct. The time estimate turned out to be really pesimisitic since it only took 134 minutes effective time and the real time were closer to my estimated effective time. 
