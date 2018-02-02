@@ -56,15 +56,25 @@ The implementation is quite straight forward there for neither the planing nor t
 |:-----:|---------------------------------------------------------------------------------------------------------------------------|----------:|
 |1.     |Planning                                                                                                                   | 15 min    |
 |2.     |Call the callback function with the `bookList`.                                                                            | 3 min     |
-|3.     |Make sure it works byecking the output on the site                                                                         | 3 min     |
-|4.     |Write reflection                                                                                                           | 30 min    |
+|3.     |Make sure it works by checking the output on the site                                                                      | 3 min     |
+|4.     |Fix eventual bugs                                                                                                          | 9 min     |
+|5.     |Write reflection                                                                                                           | 30 min    |
 |       |*Total estimated time*                                                                                                     | *60 min*  |
 
 #### Reflection
-Both the implementation and the planning took shorter time than expected. In total it took 5:35 minutes to plan and implement the feature. This is probably a result of having a clear idea on how to solve the solution, some of the planning happened during the planing for the whole task and the minimum estimation is 15 minutes. Even though the time estimation was way off this seems to be an improvement strategi in the long run since a task is much more than just the implementation and it's important to be able to estimate the whole task from start to finish.
+Both the implementation and the planning took shorter time than expected. In total it took 10:35 minutes to plan and implement the feature including fixing a bug where I realised that the key for the publish date were formated incorrectly. This is probably a result of having a clear idea on how to solve the solution, some of the planning happened during the planing for the whole task and the minimum estimation is 15 minutes. Even though the time estimation was way off this seems to be an improvement strategy in the long run since a task is much more than just the implementation and it's important to be able to estimate the whole task from start to finish.
 
 ___
 
 ### Task 2 Vision
 #### Planning
-Writing the vision document is a bigger task that will
+Writing the vision document is a bigger task that will take longer time to both produce and plan. When it takes longer time it also have a greater risk of being interupted and there for take even longer time. With that in mind my initial time estimation is 4 hours effective time spent on the task but it will probably take 8 hours from start to finish. Start 13:00 fri 1st.
+
+| Order | Subtask                                                                                                                   | Est. time |
+|:-----:|---------------------------------------------------------------------------------------------------------------------------|----------:|
+|1.     |Planning the subtasks.                                                                                                     | 15 min    |
+|1.     |Research what to include in a vision document.                                                                             | 90 min    |
+|2.     |Go through provided information to find out the current vision.                                                            | 60 min    |
+|3.     |Write the vision.                                                                                                          | 60 min    |
+|4.     |Write reflection                                                                                                           | 15 min    |
+|       |*Total estimated time*                                                                                                     | *60 min*  |
