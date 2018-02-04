@@ -3,6 +3,8 @@
 ## Task 1
 ### Subtask A Books
 #### Planning
+By divide the task into even smaller subtasks it becomes easier to both get an overview of what needs to be done and to estimate the time for each task. It also makes it easier to make sure that nothing will be forgotten in the implementation and the time estimation.
+
 | Order |Subtask                                                                                                                    | Est. time |
 |:-----:|---------------------------------------------------------------------------------------------------------------------------|----------:|
 |1.     |Create module. `bookList.js`                                                                                               | 1 min     |
@@ -68,7 +70,7 @@ ___
 
 ### Task 2 Vision
 #### Planning
-Writing the vision document is a bigger task that will take longer time to both produce and plan. When it takes longer time it also have a greater risk of being interupted and there for take even longer time. With that in mind my initial time estimation is 4 hours effective time spent on the task but it will probably take 8 hours from start to finish. Start 13:00 fri 2nd.
+Writing the vision document is a bigger task that will take longer time to both produce and plan. When it takes longer time it also have a greater risk of being interupted and there for take even longer time. With that in mind my initial time estimation is 4 hours effective time spent on the task but it will probably take 8 hours from start to finish. Start 13:00 fri 2nd. Finish 17:13 fri 2nd
 
 | Order | Subtask                                                                                                                   | Est. time |
 |:-----:|---------------------------------------------------------------------------------------------------------------------------|----------:|
@@ -77,7 +79,27 @@ Writing the vision document is a bigger task that will take longer time to both 
 |2.     |Go through provided information to find out the current vision.                                                            | 60 min    |
 |3.     |Write the vision.                                                                                                          | 60 min    |
 |4.     |Write reflection.                                                                                                          | 15 min    |
-|       |*Total estimated time*                                                                                                     | *60 min*  |
+|       |*Total estimated time*                                                                                                     | *240 min* |
 
 #### Reflections
-The during the planning stage the plan was create the vision document with a more of a waterfall approach but I ended up working more in iterations. I started with reading about vision documents and what it needs to include. I mostly skimmed though the texts first and then went back to it during the time that I wrote the vision. I found this easier because I didn't need to take separate note or remember to much information at once. Instead I could write the vision and make changes if needed. It did effected both the planning and the time tracking since it was hard to always remember to pause and start the different time trackers while rapidly switching between the different subtasks. But the total time is still correct. The time estimate turned out to be really pesimisitic since it only took 134 minutes effective time and the real time were closer to my estimated effective time. 
+The during the planning stage the plan was create the vision document with a more of a waterfall approach but I ended up working more in iterations. I started with reading about vision documents and what it needs to include. I mostly skimmed though the texts first and then went back to it during the time that I wrote the vision. I found this easier because I didn't need to take separate note or remember to much information at once. Instead I could write the vision and make changes if needed. It did effected both the planning and the time tracking since it was hard to always remember to pause and start the different time trackers while rapidly switching between the different subtasks. But the total time is still correct. The time estimate turned out to be really pesimisitic since it only took 134 minutes effective time and the real time were closer to my estimated effective time.
+
+___
+
+### Task 3 Project plan
+#### Planning
+Planning will take a lot long than previous tasks to make sure no part is missed. Estimated time is 60 minutes for planning and 4 hours in total.
+
+| Order | Subtask                                                                                                                   | Est. time |
+|:-----:|---------------------------------------------------------------------------------------------------------------------------|----------:|
+|1.     |Identify constraints.                                                                                                      | 15 min    |
+|1.     |Identify risks.                                                                                                            | 15 min    |
+|4.     |Analyse risks.                                                                                                             | 15 min    |
+|5.     |Identify milestones.                                                                                                       | 15 min    |
+|6.     |Add deadlines.                                                                                                             | 15 min    |
+|3.     |Identify resources.                                                                                                        | 15 min    |
+|6.     |Create a schedule.                                                                                                         | 15 min    |
+|1.     |Write introduction.                                                                                                        | 15 min    |
+|2.     |Write project organization.                                                                                                | 15 min    |
+|4.     |Write risk analysis.                                                                                                       | 15 min    |
+|6.     |Write work breakdown.                                                                                                      | 15 min    |
