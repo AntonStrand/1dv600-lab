@@ -9,8 +9,8 @@ The organisation is on one person that will do all of the required parts in the 
 The project's main resource is one person working less than 50% effectivly since part of the time needs to be dedicated to lectures and learning new information. This is something that will effect the scheduling and planning of the activities.
 
 ## Risk analysis
-|Risk                                                                                                           | Probability | Effects        |
-|---------------------------------------------------------------------------------------------------------------|-------------|-----------------|
+|Risk                                                                                                           | Probability | Effects         |
+|:--------------------------------------------------------------------------------------------------------------|:------------|:----------------|
 |Getting ill                                                                                                    |Low          | Serious         |
 |The time required to plan is underestimated                                                                    |Modate       | Serious         |
 |The time required to develop the software is underestimated                                                    |Modate       | Serious         |
@@ -21,7 +21,7 @@ By planning to be done with activities for the milestones and delivarables befor
 ## Activity Schedule
 
 | ID |Activity                                           | Duration (Hours) | Depenencies | Milestone | Week  |
-|--------------------------------------------------------|------------------|-------------|-----------|-------|
+|----|---------------------------------------------------|------------------|-------------|-----------|-------|
 | T1 |Identify and realise use cases                     | 10               |             | M1        | 6     |
 | T2 |Design logic to list books                         | 5                | T1          | M1        | 7     |
 | T3 |Implement the design                               | 3                | T1, T2      | M1        | 7     |
