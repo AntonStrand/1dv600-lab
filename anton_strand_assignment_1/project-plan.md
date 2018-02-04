@@ -1,4 +1,5 @@
-By dividing the task into even smaller subtasks it becomes easier to both get an overview of what needs to be done and to estimate the time for each task based on my experience of doing similar tasks before. It also makes it easier to make sure that nothing will be forgotten in the implementation and the time estimation.# Project plan
+# Project plan
+
 ## Introduction
 The project is to create a CRUD REST-API that will handle books. In the end, the user will be able to create, read, update and delete books from the server. The biggest constraint is time through the project should be done by the end of week 11, 2018. During this the project, there will be deliveries of the progress of the project.
 
