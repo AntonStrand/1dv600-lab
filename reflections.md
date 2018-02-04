@@ -3,7 +3,7 @@
 ## Task 1
 ### Subtask A Books
 #### Planning
-By divide the task into even smaller subtasks it becomes easier to both get an overview of what needs to be done and to estimate the time for each task. It also makes it easier to make sure that nothing will be forgotten in the implementation and the time estimation.
+By divide the task into even smaller subtasks it becomes easier to both get an overview of what needs to be done and to estimate the time for each task based on experience of doing similar tasks before. It also makes it easier to make sure that nothing will be forgotten in the implementation and the time estimation.
 
 | Order |Subtask                                                                                                                    | Est. time |
 |:-----:|---------------------------------------------------------------------------------------------------------------------------|----------:|
@@ -95,6 +95,7 @@ Planning will take a lot long than previous tasks to make sure no part is missed
 |1.     |Identify constraints.                                                                                                      | 15 min    |
 |1.     |Identify risks.                                                                                                            | 15 min    |
 |4.     |Analyse risks.                                                                                                             | 15 min    |
+|6.     |Write work breakdown.                                                                                                      | 15 min    |
 |5.     |Identify milestones.                                                                                                       | 15 min    |
 |6.     |Add deadlines.                                                                                                             | 15 min    |
 |3.     |Identify resources.                                                                                                        | 15 min    |
@@ -102,4 +103,7 @@ Planning will take a lot long than previous tasks to make sure no part is missed
 |1.     |Write introduction.                                                                                                        | 15 min    |
 |2.     |Write project organization.                                                                                                | 15 min    |
 |4.     |Write risk analysis.                                                                                                       | 15 min    |
-|6.     |Write work breakdown.                                                                                                      | 15 min    |
+
+
+#### Reflections
+It's hard to write a proper project plan as it's usually meant to include a lot of people and other resources that need to be structrured and included during the project plan. In this case the circumstances are a bit different.
