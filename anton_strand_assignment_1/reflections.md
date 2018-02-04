@@ -24,6 +24,7 @@ Time log: 19:45, 30 January, 26:06 min.
 #### Reflections
 The planning was separated into two tasks. The first one was to list all of the steps to implement the feature and then trying to estimate the time for each task. The time estimates were added together and included some extra time for vagrant and eventual problems that might occur. The final estimate was quite close to the actual implementation time but some of the time estimations were too short while others were a bit long and the implementation was done in a bit of a rush. Next time I’ll add some extra time for each task just in case. Even though the steps are numbered I realized during the implementation that I needed to jump from 1 to 5, 6 and back into the right order to be able to see that the implementation was done correctly. For the next task, I need to order the steps better.
 
+<br><br>
 ___
 
 ### Subtask B JSON
@@ -41,11 +42,14 @@ Time log: 12:40, 31 January, 2:43 min
 #### Reflections
 I followed the same structure to plan the task as I did on the first one. The only difference was that I included the reload time as well as the eventual mishaps in the time estimation for each step instead of having it as a separate time estimation. I felt fairly sure about how to turn the array into JSON there for the time estimation was quite low and most of the time was there to make sure that the reload time was not going to ruin the time estimation. Fortunately, everything went to plan and I managed to keep the time restriction.
 
+<br><br>
 ___
 
 ### Improvement Strategies
 By starting to make time estimates about both planning and reflection and not just the implementation I will both get more experience of time estimation and also better knowledge about how long the task actually takes rather than just the implementation.
 It's a good thing to have longer time estimations in case of eventual problems. So far nothing to mayor has interrupted the work but something unexpected might occur. Personally, I'm quite a time optimist and I think it might be a good thing to at least double my initial time estimation as a contingency.
+
+<br><br>
 ___
 
 ### Subtask C ­­ Web
@@ -65,6 +69,7 @@ The implementation is quite straightforward there for neither the planning nor t
 #### Reflection
 Both the implementation and the planning took a shorter time than expected. In total it took 10:35 minutes to plan and implement the feature including fixing a bug where I realized that the key to the publish date was formatted incorrectly. This is probably a result of having a clear idea on how to solve the solution, some of the planning happened during the planning for the whole task and the minimum estimation is 15 minutes. Even though the time estimation was way off this seems to be an improvement strategy in the long run since a task is much more than just the implementation and it's important to be able to estimate the whole task from start to finish.
 
+<br><br>
 ___
 
 ### Task 2 Vision
@@ -83,6 +88,7 @@ Writing the vision document is a bigger task that will take a longer time to bot
 #### Reflections
 The during the planning stage the plan was to create the vision document with a more of a waterfall approach but I ended up working more in iterations. I started with reading about vision documents and what it needs to include. I mostly skimmed through the texts first and then went back to it during the time that I wrote the vision. I found this easier because I didn't need to take separate note or remember too much information at once. Instead, I could write the vision and make changes if needed. It did affect both the planning and the time tracking since it was hard to always remember to pause and start the different time trackers while rapidly switching between the different subtasks. But the total time is still correct. The time estimate turned out to be really pesimisitic since it only took 134 minutes effective time and the real time were closer to my estimated effective time.
 
+<br><br>
 ___
 
 ### Task 3 Project plan
