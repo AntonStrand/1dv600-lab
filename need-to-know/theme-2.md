@@ -4,21 +4,21 @@
 
 1. ### Explain and exemplify static and dynamic models.
 
-   __Static Modeling__ is used to represent the static constituents of a Software such as:
-    1. Classes
-    2. Objects
-    3. Interfaces
-    4. Their relationship with each other
+  __Static Modeling__ is used to represent the static constituents of a Software such as:
+  1. Classes
+  2. Objects
+  3. Interfaces
+  4. Their relationship with each other
 
-    Static Modeling include class and object diagrams.
+  Static Modeling include class and object diagrams.
 
-    __Dynamic Modeling__ represents the behavior of the static constituents, their relationships and interfaces. And also to represents the interaction, workflow, and different states of the static constituents in a software.
+  __Dynamic Modeling__ represents the behavior of the static constituents, their relationships and interfaces. And also to represents the interaction, workflow, and different states of the static constituents in a software.
 
-    1. Interaction Diagram
-    2. Object Diagram
-    3. Activity Diagram
-    4. Sequence Diagram
-    5. Communication Diagram
+  1. Interaction Diagram
+  2. Object Diagram
+  3. Activity Diagram
+  4. Sequence Diagram
+  5. Communication Diagram
 ___
 
 2. ### Provide a brief account for all UML diagrams
@@ -35,37 +35,36 @@ ___
   | Profile diagram | Part of UML 2 - (rarely used) |
 
   #### Behavioral UML diagrams (Dynamic)
-  | Diagram name | Description |
-  | --- | --- |
-  | Activity diagram | * Describe the steps performed in a UML use case.
-        * Demonstrate the logic of an algorithm.
-        * Illustrate a business process or workflow between users and the system.
-        * Simplify and improve any process by clarifying complicated use cases.
-        * Model software architecture elements, such as method, function, and operation.|
+  1. Activity diagram
+      * Describe the steps performed in a UML use case.
+      * Demonstrate the logic of an algorithm.
+      * Illustrate a business process or workflow between users and the system.
+      * Simplify and improve any process by clarifying complicated use cases.
+      * Model software architecture elements, such as method, function, and operation.
 
-    2. Sequence diagram - _Interaction diagram_
-        * It shows the interactions between the different objects in the system, and between actors and the objects in a system and in which order these accur.
+  2. Sequence diagram - _Interaction diagram_
+      * It shows the interactions between the different objects in the system, and between actors and the objects in a system and in which order these accur.
 
-    3. Use case diagram
-        * Shows how the system interacts with the actors and use cases.
+  3. Use case diagram
+      * Shows how the system interacts with the actors and use cases.
 
-    4. State diagram
-        * Describe the states an object or interaction might be in as well as transition between states. 
-        * It shows how the system respond to external and internal events.
-        * State machine represents the various states of an object that change in response to events during its lifetime. Here, a state refers to the condition of an object during its existence in memory.
+  4. State diagram
+      * Describe the states an object or interaction might be in as well as transition between states. 
+      * It shows how the system respond to external and internal events.
+      * State machine represents the various states of an object that change in response to events during its lifetime. Here, a state refers to the condition of an object during its existence in memory.
 
-    5. Communication diagram (Collaboration diagram) - _Interaction diagram_
-        * Collaboration diagram describes the organization of objects in a system taking part in the message flow.
-        * Similar to sequence diagram but doesn't care about time and instead using a numbering scheme to describe the order of events.
+  5. Communication diagram (Collaboration diagram) - _Interaction diagram_
+      * Collaboration diagram describes the organization of objects in a system taking part in the message flow.
+      * Similar to sequence diagram but doesn't care about time and instead using a numbering scheme to describe the order of events.
 
-    6. Interaction overview diagram - _Interaction diagram_
-        * A collection of _interaction diagrams_ and the order they happen. (Interaction timeline)
+  6. Interaction overview diagram - _Interaction diagram_
+      * A collection of _interaction diagrams_ and the order they happen. (Interaction timeline)
 
-    7. Timing diagram - _Interaction diagram_
-        * They represents the behavior of objects in a given time frame.
-        * The time the takes for a process to completed.
-        * The time each process is active in the system.
-        * Away to get an overview of where the time is spent.
+  7. Timing diagram - _Interaction diagram_
+      * They represents the behavior of objects in a given time frame.
+      * The time the takes for a process to completed.
+      * The time each process is active in the system.
+      * Away to get an overview of where the time is spent.
 ___
 
 3. ### Are UML class diagrams static or dynamic models?
@@ -90,33 +89,35 @@ ___
 ___
 
   #### Extra notes about use cases in general
-    - __Actors__ - the users that interact with a system. An actor can be a person, an organization, or an outside system that interacts with your application or system. They must be external objects that produce or consume data.
-    - __System__ - a specific sequence of actions and interactions between actors and the system. A system may also be referred to as a scenario.
-    - __Goals__ - the end result of most use cases. A successful diagram should describe the activities and variants used to reach the goal.
+  - __Actors__ - the users that interact with a system. An actor can be a person, an organization, or an outside system that interacts with your application or system. They must be external objects that produce or consume data.
+  - __System__ - a specific sequence of actions and interactions between actors and the system. A system may also be referred to as a scenario.
+  - __Goals__ - the end result of most use cases. A successful diagram should describe the activities and variants used to reach the goal.
 
   #### Use case description / documentation
 
-    __Initiation__
-    __Pre__ and __post__ conditions
-    __Primary__ flow of events
-    __Alternative__ and __secondary__ flow of events
-    Use case __relationships__
+  __Initiation__
+  __Pre__ and __post__ conditions
+  __Primary__ flow of events
+  __Alternative__ and __secondary__ flow of events
+  Use case __relationships__
 
-    Flows of events
-      - Primary path to achive the goal 
-      - Alternative (Secondary) path to achive the goal
-      - Exeptional paths terminate without achiving the goal
-       
-    Use case is to tell a story of how to fullfil a goal, or a set of stories of both failing and reaching.
+  Flows of events
+    - Primary path to achive the goal 
+    - Alternative (Secondary) path to achive the goal
+    - Exeptional paths terminate without achiving the goal
+      
+  Use case is to tell a story of how to fullfil a goal, or a set of stories of both failing and reaching.
 
   #### List of parts in a use case description / documentation
-    1. Primary actor        : The Actor(s) using the system to achieve a goal. Might be the one that triggers the scenario.
-    2. Secondary actor      : Actors that the system needs assistance from to achieve the primary actor’s goal.
-    3. Initiation / Trigger : What will start the use case.
-    4. Pre condition        : The condition(s) for the use case to happened.
-    5. Post condition       : The goal of the use case.
-    6. Main scenario        : List of activities if everything goes as expected.
-    7. Secondary scenario   : List of activities of possible alternative scenarios.
+  | Name | Description |
+  | --- | --- |
+  | Primary actor | The Actor(s) using the system to achieve a goal. Might be the one that triggers the scenario. |
+  | Secondary actor | Actors that the system needs assistance from to achieve the primary actor’s goal. |
+  | Initiation / Trigger | What will start the use case. |
+  | Pre condition        | The condition(s) for the use case to happened. |
+  | Post condition | The goal of the use case. |
+  | Main scenario | List of activities if everything goes as expected. |
+  | Secondary scenario | List of activities of possible alternative scenarios. |
 ___
 
 6. ### Discuss and exemplify how UML distinguishes objects from classes.
@@ -395,6 +396,8 @@ ___
 
 3. ### Design activities and artefacts
     Mapping use cases to models
+___
+
 4. Design patterns, types of patterns and their role in software design
 5. UML class models, Robustness diagrams, UML sequence diagrams
 6. Use case Realizations
