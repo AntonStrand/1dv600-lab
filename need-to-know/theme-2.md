@@ -24,26 +24,15 @@ ___
 2. ### Provide a brief account for all UML diagrams
     [Reference](https://www.smartdraw.com/uml-diagram/#UMLTypes)
    #### Structural UML diagrams (Static)
-
-    1. Class diagram
-        * Classes represent an abstraction of entities with common characteristics. Associations represent the relationships between classes.
-
-    2. Package diagram
-        * Away to group classes into related groups to minimize dependencies between packages.
- 
-    3. Object diagram (instance diagram)
-        * Object diagrams describe the static structure of a system at a particular time. They can be used to test class diagrams for accuracy.
-
-    4. Component diagram
-        * Describes the organization and wiring of the physical components in a system. A component is a logical unit block of the system, a slightly higher abstraction than classes.
-
-    5. Composite structure diagram
-        * Composite structure diagrams show the internal part of a class.
-
-    6. Deployment diagram
-        * Show the hardware of the system and the software in that system.
-
-    7. (Profile diagram - Part of UML 2 - rarely used)
+  | Diagram name | Description |
+  | --- | --- |
+  | Class diagram | Classes represent an abstraction of entities with common characteristics. Associations represent the relationships between classes. |
+  | Package diagram | Away to group classes into related groups to minimize dependencies between packages. |
+  |Object diagram _instance diagram_ | Object diagrams describe the static structure of a system at a particular time. They can be used to test class diagrams for accuracy. |
+  | Component diagram | Describes the organization and wiring of the physical components in a system. A component is a logical unit block of the system, a slightly higher abstraction than classes. |
+  | Composite structure diagram | Composite structure diagrams show the internal part of a class. (See 16)|
+  | Deployment diagram | Show the hardware of the system and the software in that system. |
+  | Profile diagram | Part of UML 2 - (rarely used) |
 
     #### Behavioral UML diagrams (Dynamic)
 
@@ -100,11 +89,12 @@ ___
     - System bounderies - Show the scope of the system.
 ___
 
+  #### Extra notes about use cases in general
     - __Actors__ - the users that interact with a system. An actor can be a person, an organization, or an outside system that interacts with your application or system. They must be external objects that produce or consume data.
     - __System__ - a specific sequence of actions and interactions between actors and the system. A system may also be referred to as a scenario.
     - __Goals__ - the end result of most use cases. A successful diagram should describe the activities and variants used to reach the goal.
 
-    #### Use case description / documentation
+  #### Use case description / documentation
 
     __Initiation__
     __Pre__ and __post__ conditions
@@ -119,7 +109,7 @@ ___
        
     Use case is to tell a story of how to fullfil a goal, or a set of stories of both failing and reaching.
 
-    #### List of parts in a use case description / documentation
+  #### List of parts in a use case description / documentation
     1. Primary actor        : The Actor(s) using the system to achieve a goal. Might be the one that triggers the scenario.
     2. Secondary actor      : Actors that the system needs assistance from to achieve the primary actor’s goal.
     3. Initiation / Trigger : What will start the use case.
@@ -183,7 +173,7 @@ __
 14. ### What are the notations used in associations?
     Extra information about the associations.
 
-    _See -> Describe key properties of UML associations and how they are modeled._
+    _See -> 10. Describe key properties of UML associations and how they are modeled._
     1. Navigable - Indicated by an open arrow in the end of the association.
     2. Unnavigable - Indicated by a small x in the end of the association.
     3. Unspecified navigability - Shown by not decorating the association with either an arrow or the letter x
@@ -261,9 +251,9 @@ ___
 ___
 
 25. ### Discuss the stereotypes used in Robustness diagrams
-    1. Boundary - for a system boundary (for example, a Login screen)
-    2. Control - to specify an element is a controller of some process (as in the Model-View-Controller pattern)
-    3. Entity - the element is a persistent or data element
+    - Boundary - for a system boundary (for example, a Login screen)
+    - Control - to specify an element is a controller of some process (as in the Model-View-Controller pattern)
+    - Entity - the element is a persistent or data element
 ___
 
 26. ### What are the differences between analysis and design?
@@ -297,11 +287,11 @@ ___
 ___
 
 32. ### What is the usage of an activity diagram?
-      1. Demonstrate the logic of an algorithm.
-      2. Describe the steps performed in a UML use case.
-      3. Illustrate a business process or workflow between users and the system.
-      4. Simplify and improve any process by clarifying complicated use cases.
-      5. Model software architecture elements, such as method, function, and operation.
+    1. Demonstrate the logic of an algorithm.
+    2. Describe the steps performed in a UML use case.
+    3. Illustrate a business process or workflow between users and the system.
+    4. Simplify and improve any process by clarifying complicated use cases.
+    5. Model software architecture elements, such as method, function, and operation.
 ___
 
 33. ### In what ways are systems-of-systems different from pure software systems?
@@ -334,8 +324,7 @@ Besides creating, specifying, describing, model, map, you must always be able to
 | Association    | A __structural relationship__ describing connections between two or more things. Graphically represented as a solid line withoptional stick arrow representing navigation. |
 | Dependency     | A __semantic relationship__, in which a change in one thing (the independent thing) may cause changes in the other thing (thedependent thing). This relationship is also known as “using” relationship. Graphically represented as dashed line with stick arrow head.|
 | Generalization | Is a __generalization-specialization relationship__. Simply put, this describes the relationship of a parent class (generalization to its subclasses (specializations). Also known as “is-a” relationship.|
-| Use case | Use case is to tell a story of how to fullfil a goal, or a set of stories of both failing and reaching.
-It shows the interaction between a system and it’s environment (users or systems) within a particular situation. |
+| Use case | Use case is to tell a story of how to fullfil a goal, or a set of stories of both failing and reaching. It shows the interaction between a system and it’s environment (users or systems) within a particular situation. |
 
 
 ## FURPS+
@@ -364,14 +353,14 @@ FURPS is an acronym representing a model for classifying software quality attrib
     Then we can find the best "pieces" and join them back together to form the system.
     To make it easier to join the parts the decision needs to be made before decomposition.
 
-      1. How is the system divided in to subsystems?
-      2. Do we have all the parts?
-      3. Do the parts fit together?
+      - How is the system divided in to subsystems?
+      - Do we have all the parts?
+      - Do the parts fit together?
 
     System concerns - (Global)
-      1. Functionality
-      2. System charactaristics and qualities (E.g. How can we guarantee performance and security in our system?)
-      3. System quality trade-offs (E.g perfomance vs. security) What is good enough?
+      - Functionality
+      - System charactaristics and qualities (E.g. How can we guarantee performance and security in our system?)
+      - System quality trade-offs (E.g perfomance vs. security) What is good enough?
 
     This will result in system integrity (the quality of state of being undivided). This mean that all the subsystems will fit together and work as one system.
 ___
@@ -398,10 +387,10 @@ ___
     Global decision effects local decisions and must there for be made first. It can be hard to define which decision that are global and which are local. Comes with experience. 
 
     ##### Example global decisions
-    1. Implement technology - Prescribes an architecture structure. (JS != Java, needs different things)
-    2. Decomposition into components
-    3. Component organization - Architecture patterns
-    4. Principle for quality concerns. (E.g. security -> session management, authentication (might be a local decision), user management)
+    - Implement technology - Prescribes an architecture structure. (JS != Java, needs different things)
+    - Decomposition into components
+    - Component organization - Architecture patterns
+    - Principle for quality concerns. (E.g. security -> session management, authentication (might be a local decision), user management)
 ___
 
 3. ### Design activities and artefacts
