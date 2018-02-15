@@ -34,14 +34,14 @@ ___
   | Deployment diagram | Show the hardware of the system and the software in that system. |
   | Profile diagram | Part of UML 2 - (rarely used) |
 
-    #### Behavioral UML diagrams (Dynamic)
-
-    1. Activity diagram
-        * Describe the steps performed in a UML use case.
+  #### Behavioral UML diagrams (Dynamic)
+  | Diagram name | Description |
+  | --- | --- |
+  | Activity diagram | * Describe the steps performed in a UML use case.
         * Demonstrate the logic of an algorithm.
         * Illustrate a business process or workflow between users and the system.
         * Simplify and improve any process by clarifying complicated use cases.
-        * Model software architecture elements, such as method, function, and operation.
+        * Model software architecture elements, such as method, function, and operation.|
 
     2. Sequence diagram - _Interaction diagram_
         * It shows the interactions between the different objects in the system, and between actors and the objects in a system and in which order these accur.
