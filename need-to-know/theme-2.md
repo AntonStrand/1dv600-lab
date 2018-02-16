@@ -149,9 +149,9 @@ ___
 10. ### Describe key properties of UML associations and how they are modeled.
     1. Name - Describe the associations
     2. Roles - Specifice the role that the classifiers has to each other. (Used in design purpose)
-      1. Navigation (direction) - How the classifiers associate to each other.
-      2. Multiplicity - Number of instances.
-      3. Name - Name of the role
+        1. Navigation (direction) - How the classifiers associate to each other.
+        2. Multiplicity - Number of instances.
+        3. Name - Name of the role
 
     They are modeled with lines and arrows.
 
@@ -373,7 +373,7 @@ ___
 
     Decisions mitigate Coordination risks - Early decisions effects later decisions and this will (hopefully) allow all the pieces fit together.
 
-    #### Architectual reasoning - decision making
+    ##### Architectual reasoning - decision making
     Enginering principles
     - Compare and pick the solution that best fits with the requirements.
     - Trying to predict the future and how well the decision will perform in production.
@@ -381,9 +381,9 @@ ___
     __Important to document decision and why (rational to that decision)__
     It will help later on if changes might be made.
 
-    #### Design decisions - locality
-    __Global__ decisions effects the whole system. (system wide)(Critical system characteristics)
-    __Local__ decisions effects a smaller part.
+    ##### Design decisions - locality
+    __Global__ decisions effects the whole system. (__Architecural design__)(system wide)(Critical system characteristics)
+    __Local__ decisions effects a smaller part. (__Detail design__)
 
     Global decision effects local decisions and must there for be made first. It can be hard to define which decision that are global and which are local. Comes with experience. 
 
@@ -392,16 +392,67 @@ ___
     - Decomposition into components
     - Component organization - Architecture patterns
     - Principle for quality concerns. (E.g. security -> session management, authentication (might be a local decision), user management)
+
+    ##### Detail design
+    Goal: Optimized solution on a local level.
+    Try to map use cases on to collaborating objects.
+    E.g. should the data be saved in a database or a xml-file? How should the form look like and what should it contain (The form can be decomposed)? How to save the form data?
+    Describe the design using classes (The type) with attributes and methods. (State and functionality)
+    Specify algoritms and data structures.
+
+    #### Architectural patterns
+    Any well-documented reusable solution to a commonly occuring architectual problem within the context of a given set of existing architectual decisions, inventions, enginering trade-offs, and assumptions.
+
+    #### Architectural mechanism
+    A major architectual decision or invention, often an element of a architectual pattern.
 ___
 
 3. ### Design activities and artefacts
     Mapping use cases to models
+    Figuring out what can be reused and what do we need to develop ourself. Examples of reuse can be applications, components, frameworks and copy/paste. After if something should be reused we need to decide what will work with the system. Most reused sysmets will force you to adapt.
+
+    #### How to use reuse
+    1. Design with reuse - Using premade thing to improve the project.
+    2. Design for reuse - Make is easy to reuse it somewhere else. (E.g. Frameworks, lodash)
+    3. Generator-based reuse - E.g. applications that write code based on UML diagrams.
+    4. Application system reuse - 
+
+    #### Opportunstic vs. Systematic reuse 
+    Opportunstic reuse is to reuse as soon as possible. Copy/paste.
+    Systematic is to make a d
+
+    1. __Architectural design:__ It defines the overall structure of the system, the main components, their relationships.
+    2. __Interface design:__ It defines the interfaces between these components. The interface specification must be clear. Therefore, a component can be used without having to know it’s implemented. Once the interface specification are agreed, the components can be designed and developed concurrently.
+    3. __Component design:__ Take each component and design how it will operate, with the specific design left to the programmer, or a list of changes to be made to a reusable component.
+    4. __Database design:__ The system data structures are designed and their representation in a database is defined. This depends on whether an existing database is to be reused or a new database to be created.
 ___
 
-4. Design patterns, types of patterns and their role in software design
+4. ### Design patterns, types of patterns and their role in software design
+  __Classification - Derive models__ - Class diagrams (types) Conceptual and detailed modeling.
+  __Object models__ - Objects (states interaction)
+  __Collaboration__ - Communication (Interaction) and how the objects message each other.
+
+  #### Design patterns
+  1. __Creational pattern__ - Addresses the problem of creating objecs. E.g. The Singleton - 1 global instance
+  2. __Structual pattern__ - A way to put objects together. (Relationship) E.g. The Adapter - adapts the data to fit the method.
+  3. __Behavioral pattern__ - Increase the flexibility to communicate between classifiers. - The Observer - Having objects (obeservers) be notified when something happens in the "main" object. This allows all everybody interessed to be informed without having to have a direct connection to the "main" class.
+
+  #### Design principles - Cornerstone of design patterns
+  1. __Abstraction__ - Reduce information
+  2. __Modularity__ - Divide modules up
+  3. __Encapulation__ - Interface for interaction
+  4. __hierarchy__ - Structure models.
+
+  DAO
 5. UML class models, Robustness diagrams, UML sequence diagrams
 6. Use case Realizations
-7. ### What is software design?
+7. ### Design process - Iterativly
+    Architecture design -> Detailed design -> Implementation -> Validation
+___
+
+8. ### What is software design?
+    A software design is a description of the structure of the software to be implemented, data models, interfaces between system components, and maybe the algorithms used.
+
     * Purpose: 
       - Describe and understand the solution.
       - Create a model of the solution using the __language and technology__ of the implementers. Close to implementation languange and API, frameworks, middleware, etc.
