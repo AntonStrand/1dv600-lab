@@ -2,8 +2,8 @@
 ## Edit book information
 A user wants to update the current book information with new information.
 
-*Pre condition:* The user is logged in and a book exists and needs to be edited.<br>
-*Post condition:* The book has been updated with new information.
+__Pre condition:__ The user is logged in and a book exists and needs to be edited.<br>
+__Post condition:__ The book has been updated with new information.
 
 ### Main scenario
 1. The user wants to edit a book.
