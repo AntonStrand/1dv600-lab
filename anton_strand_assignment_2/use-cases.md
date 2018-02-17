@@ -2,8 +2,8 @@
 ## Edit book information
 A user wants to update the current book information with new information.
 
-*Pre condition: The user is logged in and a book exists and needs to be edited.*
-*Post condition: The book has been updated with new information.*
+*Pre condition:* The user is logged in and a book exists and needs to be edited.<br>
+*Post condition:* The book has been updated with new information.
 
 ### Main scenario
 1. The user wants to edit a book.
@@ -15,7 +15,7 @@ A user wants to update the current book information with new information.
 7. The system message the user that the book has been updated.
 
 ### Secondary scenario
-2.1. The book doesn't exsists and the user has to add the book instead.
-6.1. The system fails to update the book information.
+2.1. The book doesn't exsists and the user has to add the book instead.<br>
+6.1. The system fails to update the book information.<br>
 7.1. The system message the user that something went wrong in case of an error.
 
