@@ -50,8 +50,6 @@ Creating a sequence diagram of the implementation of loading the books from a xm
 | 5.    | Create the sequence diagram                                                                                            |
 | 6.    | Write reflection                                                                                                       |
 
-Expected time 90 mins
-
 1. books.js -- getBooks() --> 
 2. GetBooksResource -- readXMLFile(:Function) -->
 3. LibraryDAO -- readFile(:String, :Function) -->
