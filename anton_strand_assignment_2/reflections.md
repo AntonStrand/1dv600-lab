@@ -18,6 +18,7 @@ Create a use case diagram based on the vision, select one of the use cases and c
 I decided to make sure that I managed to do all the "shalls" before I did the "shoulds" therefore I will postpone the optional extra case document and activity until next iteration. I want to make sure that everything that needs to be included is done before I can continue with the optional tasks. The last time estimations have been way off after adding some extra contingency time to make sure that I manage to do everything within my given time frame. For this task, I decided to reduce the extra time a bit and try to get it closer to the actual time but with the risk of the time estimation would be tight. The estimation became a lot closer to the actual time spent. The use case diagram is including cases from the vision document as well.
 
 ___
+<br><br>
 
 ### Subtask C Use Case Realization
 #### Planning
