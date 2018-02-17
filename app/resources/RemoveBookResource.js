@@ -4,9 +4,10 @@
     var LibraryDAO = require('../dao/LibraryDAO');
 
     /**
-     * Get all but the book with the provided id.
+     * Test if the book id is not the provided id.
      * @param {String} id
-     * @param {Object} book 
+     * @param {Object} book
+     * @return {Boolean}
      */
     function getAllBooksBut (id) {
         return function (book) {
@@ -14,6 +15,7 @@
         };
     };
 
+    // Remove book by id.
     module.exports = function (id, callback) {
         LibraryDAO.readXMLFile(function(books){
             var remaingBooks = books.filter(getAllBooksBut(id));
