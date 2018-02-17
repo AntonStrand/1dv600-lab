@@ -50,17 +50,6 @@ Creating a sequence diagram of the implementation of loading the books from a xm
 | 5.    | Create the sequence diagram                                                                                            |
 | 6.    | Write reflection                                                                                                       |
 
-1. books.js -- getBooks() --> 
-2. GetBooksResource -- readXMLFile(:Function) -->
-3. LibraryDAO -- readFile(:String, :Function) -->
-4. fs - - return - ->
-5. LibraryDAO -- parseString(xml:String, config:Object) -->
-6. xml2js - - return - ->
-7. LibraryDAO -- callback(:Object) -->
-8. GetBooksResource -- stringify(:Array) -->
-8. JSON - - return - ->
-9. GetBooksResource -- callback(:JSON) -->
-
 ### Reflection
 Since the last subtask was quite similar to this one I could use the time from the other task as a template for estimating the time for this task. Most of the time was spent on researching the xml2js-module and to get to know the system a bit more. But after finding all the necessary information it was quite easy to list the needed steps to implement the functionality. When it was done it went even faster to convert it into a sequence diagram. The time estimation went quite well too. It's testimony that experience help when it comes to estimating time.
 ___
