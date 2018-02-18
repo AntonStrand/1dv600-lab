@@ -9,7 +9,9 @@
 8. Filter books
 9. View book information
 10. Read book
-
+___
+### Use case diagram
+![use case diagram](https://github.com/AntonStrand/1dv600-lab/blob/master/anton_strand_assignment_2/use-case-diagram.jpg)
 
 ___
 ## Use case documentation - Edit book information
