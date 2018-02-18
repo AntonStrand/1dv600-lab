@@ -1,5 +1,18 @@
 # Use cases
-## Edit book information
+1. Create account
+2. Log in
+3. List books
+4. Edit book information
+5. Add book
+6. Remove book
+7. Search book
+8. Filter books
+9. View book information
+10. Read book
+
+
+___
+## Use case documentation - Edit book information
 A user wants to update the current book information with new information.
 
 __Pre condition:__ The user is logged in and a book exists and needs to be edited.<br>
