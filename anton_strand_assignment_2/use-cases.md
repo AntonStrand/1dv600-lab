@@ -33,4 +33,7 @@ __Post condition:__ The book has been updated with new information.
 2.1. The book doesn't exsists and the user has to add the book instead.<br>
 6.1. The system fails to update the book information.<br>
 7.1. The system message the user that something went wrong in case of an error.
+___
 
+## Activity Diagram for edit a book
+![Edit book activity diagram](https://github.com/AntonStrand/1dv600-lab/blob/master/anton_strand_assignment_2/Edit-Book-Activity-Diagram.jpg)
