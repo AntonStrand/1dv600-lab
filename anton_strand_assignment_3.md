@@ -46,7 +46,6 @@ The server must be running.
 
 #### Comments
 ||
-|---|
 ||
 ||
 ||
