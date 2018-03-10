@@ -11,7 +11,7 @@
 10. Read book
 ___
 ### Use case diagram
-![use case diagram](https://github.com/AntonStrand/1dv600-lab/blob/master/anton_strand_assignment_2/use-case-diagram.jpg)
+![use case diagram](./use-case-diagram.jpg)
 
 ___
 ## Use case documentation - Edit book information
@@ -36,4 +36,4 @@ __Post condition:__ The book has been updated with new information.
 ___
 
 ## Activity Diagram for edit a book
-![Edit book activity diagram](https://github.com/AntonStrand/1dv600-lab/blob/master/anton_strand_assignment_2/Edit-Book-Activity-Diagram.jpg)
+![Edit book activity diagram](./Edit-Book-Activity-Diagram.jpg)

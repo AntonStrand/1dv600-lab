@@ -28,7 +28,7 @@
 
                 parseString(data, function (err, result) {
                     if (err) throw err;
-                    callback(result.catalog.book);
+                    callback(result.catalog.book || []);
                 });
             })
         },
@@ -38,7 +38,7 @@
             var xml = builder.buildObject(nestXMLObject(data));
             fs.writeFile('/vagrant/books.xml', xml, function (err) {
                 if (err) throw err;
-                console.log('The file has been saved!');
+                // console.log('The file has been saved!');
             });
         }
     };

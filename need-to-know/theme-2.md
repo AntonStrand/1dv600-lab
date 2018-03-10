@@ -2,6 +2,39 @@
 
 ## Questions for you to answer for the Modeling and Design Themes 
 
+### Different types of requirements and their unique properties. __Functional vs. non-functional__
+1. __Functional requirements__ These are statements of services the system should provide, how the system should react to particular inputs, and how the system should behave in particular situations. In some cases, the functional require- ments may also explicitly state what the system should not do.
+
+2. __Non-functional requirements__ These are constraints on the services or functions offered by the system. They include timing constraints, constraints on the devel- opment process, and constraints imposed by standards. Non-functional require- ments often apply to the system as a whole rather than individual system features or services.
+
+__domain requirements__ are inherite from the application domain. E.g. privacy laws for patients.
+
+#### levels of requirements
+I distinguish between them by using the term user requirements to mean the high-level abstract requirements and system requirements to mean the detailed description of what the system should do.
+
+1. __User requirements__ are statements, in a natural language plus diagrams, of what ser- vices the system is expected to provide to system users and the constraints under which it must operate. The user requirements may vary from broad statements of the system features required to detailed, precise descriptions of the system functionality.
+
+2. __System requirements__ are more detailed descriptions of the software system’s functions, services, and operational constraints. The system requirements docu- ment (sometimes called a functional specification) should define exactly what is to be implemented. It may be part of the contract between the system buyer and the software developers.
+
+
+### Describe and discuss core requirements activities. Describe various techniques that can be applied, for example, in elicitation.
+
+1. __Requirement elicitaion__ trying to discover what the requirements are.
+
+2. __Requirements analysis and negotiation__ Analyse the things found in the step before. Looking for inconsistensies and things that we need to find out more about. It will go back and fourth between step 1 and 2 to develop and refine the requirements.
+
+3. __Requirements documentation__ the requirements needs to be documented and written down in such a way that they are understandable to both the system stakeholders and engineers. These are often informal because to formal requirements can be hard for stakeholders to understand.
+
+4. __Requirements validation__ were we take these requirements back to the stakeholders to varify that is is what they want.
+
+This is a iterative process. It's always time restraints. Working in a spiral until we run out of time and hope that it is enough for the system implementation. Problems with requirements often arise because this process wasn't allowed to take enough time.
+
+### How requirements engineering can be fitted into the software engineering process
+Requirements engineering is usually presented as the first stage of the software
+engineering process. However, some understanding of the system requirements may have to be developed before a decision is made to go ahead with the procurement or development of a system.
+
+![input-output-of-rep.png](./images/input-output-of-rep.png)
+
 1. ### Explain and exemplify static and dynamic models.
 
   __Static Modeling__ is used to represent the static constituents of a Software such as:
@@ -19,11 +52,22 @@
   3. Activity Diagram
   4. Sequence Diagram
   5. Communication Diagram
+
+    A range of different models may be produced during an object-oriented design process. These include static models (class models, generalization models, association models) and dynamic models (sequence models, state machine models).
+
+    UML diagrams represent two different views of a system model:[23]
+
+    __Static (or structural) view__: emphasizes the static structure of the system using objects, attributes, operations and relationships. It includes class diagrams and composite structure diagrams.
+    __Dynamic (or behavioral) view__: emphasizes the dynamic behavior of the system by showing collaborations among objects and changes to the internal states of objects. This view includes sequence diagrams, activity diagrams and state machine diagrams.
+
+
+  __Dynamic view__
+  use case, activity, sequence, collaboration, and Statechart
 ___
 
 2. ### Provide a brief account for all UML diagrams
     [Reference](https://www.smartdraw.com/uml-diagram/#UMLTypes)
-   #### Structural UML diagrams (Static)
+   #### Structural UML diagrams
   | Diagram name | Description |
   | --- | --- |
   | Class diagram | Classes represent an abstraction of entities with common characteristics. Associations represent the relationships between classes. |
@@ -34,7 +78,7 @@ ___
   | Deployment diagram | Show the hardware of the system and the software in that system. |
   | Profile diagram | Part of UML 2 - (rarely used) |
 
-  #### Behavioral UML diagrams (Dynamic)
+  #### Behavioral UML diagrams
   1. Activity diagram
       * Describe the steps performed in a UML use case.
       * Demonstrate the logic of an algorithm.
@@ -43,7 +87,7 @@ ___
       * Model software architecture elements, such as method, function, and operation.
 
   2. Sequence diagram - _Interaction diagram_
-      * It shows the interactions between the different objects in the system, and between actors and the objects in a system and in which order these accur.
+      * It shows the interactions between the different objects in the system, and between actors and the objects in a system and in which order these accur. sequence of messages.
 
   3. Use case diagram
       * Shows how the system interacts with the actors and use cases.
@@ -65,6 +109,8 @@ ___
       * The time the takes for a process to completed.
       * The time each process is active in the system.
       * Away to get an overview of where the time is spent.
+
+    __Interaction diagrams handle messages__
 ___
 
 3. ### Are UML class diagrams static or dynamic models?
@@ -326,6 +372,8 @@ Besides creating, specifying, describing, model, map, you must always be able to
 | Dependency     | A __semantic relationship__, in which a change in one thing (the independent thing) may cause changes in the other thing (thedependent thing). This relationship is also known as “using” relationship. Graphically represented as dashed line with stick arrow head.|
 | Generalization | Is a __generalization-specialization relationship__. Simply put, this describes the relationship of a parent class (generalization to its subclasses (specializations). Also known as “is-a” relationship.|
 | Use case | Use case is to tell a story of how to fullfil a goal, or a set of stories of both failing and reaching. It shows the interaction between a system and it’s environment (users or systems) within a particular situation. |
+| Model driven engineering | Blueprints that are created and manipulated so that a system implementation may be generated in its entirety. |
+| Agile Modeling | Throw away sketches to quickly communicate a problem and solution to the development team. | 
 
 
 ## FURPS+
@@ -343,7 +391,10 @@ FURPS is an acronym representing a model for classifying software quality attrib
 ## Knowledge
 
 1. ### Software architecture and its role in software design.
+    A software architecture is a description of how a software system is organized. Properties of a system such as performance, security, and availability are influenced by the architecture used.
+
     Software architecture give us the possibility to consider alternatives and evaluate to pick the ones that is most suitible for the requirements early on without having software.
+
 
     Targets risks.
 
@@ -367,7 +418,12 @@ FURPS is an acronym representing a model for classifying software quality attrib
 ___
 
 2. ### Architectural decisions, patterns, and mechanism
+
+    __Architectural design__ is concerned with understanding how a software system should be organized and designing the overall structure of that system.
+
     #### Architectural decisions
+    A decision that affects the organization of the development and decision that has a global impact
+
     Targets risks. Make critical system decisions early on to minimize both risks and the effect.
     There is rarely any guidence on which decisions you should make. Comes down to experience and domain.
 
@@ -403,6 +459,18 @@ ___
     #### Architectural patterns
     Any well-documented reusable solution to a commonly occuring architectual problem within the context of a given set of existing architectual decisions, inventions, enginering trade-offs, and assumptions.
 
+    well-tried ways of organizing software architectures that can be reused in system designs.
+
+    __A commonly used high­level decomposition of a software system.__
+
+    __A way to reuse knowledge of generic system architectures.__
+
+    Architectural pattern as a stylized, abstract description of good practice, which has been tried and tested in different systems and environments. So, an Architectural pattern should describe a system organization that has been success- ful in previous systems.
+
+    __Architectural patterns__ are a means of reusing knowledge about generic system architectures. They describe the architecture, explain when it may be used, and point out its advantages and disadvantages.
+
+    __Commonly used Architectural patterns__ include model-view-controller, layered architecture, repository, client–server, and pipe and filter.
+
     #### Architectural mechanism
     A major architectual decision or invention, often an element of a architectual pattern.
 ___
@@ -433,6 +501,10 @@ ___
   __Collaboration__ - Communication (Interaction) and how the objects message each other.
 
   #### Design patterns
+ The pattern is a description of the problem and the essence of its solution, so that the solution may be reused in different settings. The pattern is not a detailed specification. Rather, you can think of it as a description of accumulated wisdom and experience, a well-tried solution to a common problem.
+
+ "_Patterns and Pattern Languages are ways to describe best practices, good designs, and capture experience in a way that it is possible for others to reuse this experience._"
+
   1. __Creational pattern__ - Addresses the problem of creating objecs. E.g. The Singleton - 1 global instance
   2. __Structual pattern__ - A way to put objects together. (Relationship) E.g. The Adapter - adapts the data to fit the method.
   3. __Behavioral pattern__ - Increase the flexibility to communicate between classifiers. - The Observer - Having objects (obeservers) be notified when something happens in the "main" object. This allows all everybody interessed to be informed without having to have a direct connection to the "main" class.
@@ -451,6 +523,8 @@ ___
 ___
 
 8. ### What is software design?
+    Software design is a creative activity in which you identify software components and their relationships, based on a customer’s requirements.
+
     A software design is a description of the structure of the software to be implemented, data models, interfaces between system components, and maybe the algorithms used.
 
     * Purpose: 
@@ -476,3 +550,4 @@ Create use case realizations with robustness diagrams, identify object responsib
 Classify (create classes and class diagrams) based on identified responsibilities
 Develop sequence diagrams to verify the robustness of class models
 Apply the aforementioned abilities iteratively and incrementally
+

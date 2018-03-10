@@ -8,7 +8,7 @@
     var EditBookResource = require('../../resources/EditBookResource');
     var GetBookResource = require('../../resources/GetBookResource');
     var GetBooksResource = require('../../resources/GetBooksResource');
-    var RemoveBookResource = require('../../resources/RemoveBookResource');
+    var RemoveBookResource = require('../../resources/RemoveBookResource').removeBookById;
 
 
 
