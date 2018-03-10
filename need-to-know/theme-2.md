@@ -57,7 +57,7 @@ engineering process. However, some understanding of the system requirements may 
 
   UML diagrams represent two different views of a system model:
 
-** THIS ONE **
+ #### THIS ONE
   __Static (or structural) view__: emphasizes the static structure of the system using objects, attributes, operations and relationships. It includes class diagrams and composite structure diagrams.
   __Dynamic (or behavioral) view__: emphasizes the dynamic behavior of the system by showing collaborations among objects and changes to the internal states of objects. This view includes sequence diagrams, activity diagrams and state machine diagrams.
 
