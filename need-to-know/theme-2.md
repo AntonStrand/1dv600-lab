@@ -53,12 +53,13 @@ engineering process. However, some understanding of the system requirements may 
   4. Sequence Diagram
   5. Communication Diagram
 
-    A range of different models may be produced during an object-oriented design process. These include static models (class models, generalization models, association models) and dynamic models (sequence models, state machine models).
+  A range of different models may be produced during an object-oriented design process. These include static models (class models, generalization models, association models) and dynamic models (sequence models, state machine models).
 
-    UML diagrams represent two different views of a system model:[23]
+  UML diagrams represent two different views of a system model:
 
-    __Static (or structural) view__: emphasizes the static structure of the system using objects, attributes, operations and relationships. It includes class diagrams and composite structure diagrams.
-    __Dynamic (or behavioral) view__: emphasizes the dynamic behavior of the system by showing collaborations among objects and changes to the internal states of objects. This view includes sequence diagrams, activity diagrams and state machine diagrams.
+** THIS ONE **
+  __Static (or structural) view__: emphasizes the static structure of the system using objects, attributes, operations and relationships. It includes class diagrams and composite structure diagrams.
+  __Dynamic (or behavioral) view__: emphasizes the dynamic behavior of the system by showing collaborations among objects and changes to the internal states of objects. This view includes sequence diagrams, activity diagrams and state machine diagrams.
 
 
   __Dynamic view__
