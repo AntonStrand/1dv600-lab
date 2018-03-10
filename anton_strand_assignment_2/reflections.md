@@ -62,3 +62,7 @@ First follow the sequence diagram and then implement delete book. Since the poin
 
 #### Reflection
 The implementation went really smooth and I could follow my sequence diagram exactly. The problem was first when I was going to save the XML again after deleting a book. I couldn't restore it to it the original structure. Due to the implementation everything still worked as it was supposed to but the XML structure was altered. In the end, I decided to implement it in another way than the sequence diagram just to keep the XML design. Designing and implementing listing the book took about 2h in total. Comming up with a new solution, rewrite the implementation, implement delete book and including all the time debugging took about 1,5h. If I had researched a bit more about how the module handled the conversion from object to XML during the design phase I would have saved a lot of time when implementing delete book.
+___
+
+## Reflections of the general planning and strategy
+The plan was to work in iterations and first do the required tasks and later go back and do the optional. But due too it took a longer time to prepare for the test as well as I needed to work on the other course I had to prioritize and just stick to the required tasks. On the other hand, if I had worked in a more linear way I would probably have done all of the tasks because I would have had to prioritized differently to be able to finish in time.
