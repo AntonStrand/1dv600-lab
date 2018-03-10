@@ -2,8 +2,8 @@
 
 ## Questions for you to answer for the Modeling and Design Themes 
 
-### Different types of requirements and their unique properties. __Functional vs. non-functional__
-1. __Functional requirements__ These are statements of services the system should provide, how the system should react to particular inputs, and how the system should behave in particular situations. In some cases, the functional require- ments may also explicitly state what the system should not do.
+### Different types of requirements and their unique properties. _Functional vs. non-functional_
+1. __Functional requirements__ These are statements of services the system should provide, how the system should react to particular inputs, and how the system should behave in particular situations. In some cases, the functional requirements may also explicitly state what the system should not do.
 
 2. __Non-functional requirements__ These are constraints on the services or functions offered by the system. They include timing constraints, constraints on the devel- opment process, and constraints imposed by standards. Non-functional require- ments often apply to the system as a whole rather than individual system features or services.
 
@@ -12,9 +12,9 @@ __domain requirements__ are inherite from the application domain. E.g. privacy l
 #### levels of requirements
 I distinguish between them by using the term user requirements to mean the high-level abstract requirements and system requirements to mean the detailed description of what the system should do.
 
-1. __User requirements__ are statements, in a natural language plus diagrams, of what ser- vices the system is expected to provide to system users and the constraints under which it must operate. The user requirements may vary from broad statements of the system features required to detailed, precise descriptions of the system functionality.
+1. __User requirements__ are statements, in a natural language plus diagrams, of what services the system is expected to provide to system users and the constraints under which it must operate. The user requirements may vary from broad statements of the system features required to detailed, precise descriptions of the system functionality.
 
-2. __System requirements__ are more detailed descriptions of the software system’s functions, services, and operational constraints. The system requirements docu- ment (sometimes called a functional specification) should define exactly what is to be implemented. It may be part of the contract between the system buyer and the software developers.
+2. __System requirements__ are more detailed descriptions of the software system’s functions, services, and operational constraints. The system requirements document (sometimes called a functional specification) should define exactly what is to be implemented. It may be part of the contract between the system buyer and the software developers.
 
 
 ### Describe and discuss core requirements activities. Describe various techniques that can be applied, for example, in elicitation.
