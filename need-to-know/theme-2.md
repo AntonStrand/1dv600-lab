@@ -59,11 +59,8 @@ engineering process. However, some understanding of the system requirements may 
 
  #### THIS ONE
   __Static (or structural) view__: emphasizes the static structure of the system using objects, attributes, operations and relationships. It includes class diagrams and composite structure diagrams.
+
   __Dynamic (or behavioral) view__: emphasizes the dynamic behavior of the system by showing collaborations among objects and changes to the internal states of objects. This view includes sequence diagrams, activity diagrams and state machine diagrams.
-
-
-  __Dynamic view__
-  use case, activity, sequence, collaboration, and Statechart
 ___
 
 2. ### Provide a brief account for all UML diagrams
