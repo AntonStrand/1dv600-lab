@@ -4,10 +4,10 @@
     var express = require('express');
     var router = express.Router();
 
-    var AddBookResource = require('../../resources/AddBookResource');
+    var AddBookResource = require('../../resources/AddBookResource').addBook;
     var EditBookResource = require('../../resources/EditBookResource');
     var GetBookResource = require('../../resources/GetBookResource');
-    var GetBooksResource = require('../../resources/GetBooksResource');
+    var GetBooksResource = require('../../resources/GetBooksResource').getBooks;
     var RemoveBookResource = require('../../resources/RemoveBookResource').removeBookById;
 
 

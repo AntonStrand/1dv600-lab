@@ -23,7 +23,7 @@
 
         // Get the entire file from the file system.
         readXMLFile: function(callback) {
-            fs.readFile('/vagrant/books.xml', function(err, data) {
+            fs.readFile('./books.xml', function(err, data) {
                 if (err) throw err;
 
                 parseString(data, function (err, result) {
@@ -36,9 +36,8 @@
         // Write the entire file from the file system.
         writeXMLFile: function(data) {
             var xml = builder.buildObject(nestXMLObject(data));
-            fs.writeFile('/vagrant/books.xml', xml, function (err) {
+            fs.writeFile('./books.xml', xml, function (err) {
                 if (err) throw err;
-                // console.log('The file has been saved!');
             });
         }
     };
